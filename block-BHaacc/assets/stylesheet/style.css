@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,500;1,700;1,900&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom  Styles*/
+
+/* General Styles */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 32px;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.diff-flex {
+	justify-content: space-around;
+}
+.nav-menu a , .social-menu a {
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 18px;
+	color: #fff;
+}
+
+.btn {
+	background-color: #CF3732;
+	padding: 10px 15px;
+	border-radius: 20px;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.sub-flex {
+	width: 47%;
+	margin-bottom: 20px;
+}
+
+.box {
+	width: 31.5%;
+}
+
+.dotted-line span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: lightgray;
+	margin-right: 2px;
+}
+
+.text-style {
+	margin-top: 50px;
+	text-transform: capitalize;
+	font-size: 28px;
+}
+/* Header */
+
+.header {
+	padding: 30px 0;
+	background: linear-gradient(to right, rgba(76,141,217, .7), rgba(136,235,151, .7)), url(/assets/home-bg.jpg) no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+.logo a{
+	font-size: 28px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+}
+.nav{
+	width: 40%;
+}
+
+.social {
+	width: 25%;
+}
+
+/* Details */
+
+.details {
+	padding: 180px 0;
+}
+.heading {
+	font-size: 45px;
+	margin-bottom: 30px;
+}
+ .company-info .btn {
+	 background-color: transparent;
+	 border: 2px solid #fff;
+	 margin-left: 0;
+	 margin-right: 20px;
+}
+
+.company-info .new-line {
+	position: relative;
+	left: 172px;
+	font-size: 14px;
+}
+
+.company-info {
+	margin-left: 18px;
+	align-self: flex-start;
+}
+.media {
+	margin-right: 35px;
+}
+
+
+
+/* About */
+
+#about {
+	margin-top: 80px;
+}
+
+.about-img img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.introduction h2 {
+	font-size: 28px;
+}
+
+.introduction p {
+	margin: 20px 0;
+	
+}
+
+label {
+	display: block;
+}
+
+.skills-info span {
+	font-weight: 600;
+}
+
+.skills-info .percentage {
+	margin-right: 50px;
+}
+
+
+progress[value]{
+	background-color: #000;
+	color: #aaa;
+	width: 250px;
+	height: 5px;
+	border-radius: 3px;
+  }
+
+  /* Blog */
+
+  .blog-section {
+	  background-color: rgb(239,239,239);
+	  padding-top: 50px;
+  }
+  #blog {
+	  text-align: center;
+	  padding-bottom: 50px;
+  }
+
+  .article {
+	  margin-top: 30px;
+	  text-align: left;
+  }
+
+  
+  .blog-img img {
+	  width: 100%;
+	  object-fit: cover;
+  }
+
+  .blog-section {
+	  padding: 10px;
+  }
+  .red i {
+	  margin-right: 5px;
+  }
+  .blog-section .red {
+	  color: crimson;
+	  font-size: 14px;
+  }
+
+  .blog-section h3 {
+	  font-size: 24px;
+	  margin-top: 10px;
+	  text-transform: capitalize;
+  }
+
+  .blog-section p {
+	  margin-top: 15px;
+	  margin-bottom: 30px;
+	  font-size: 14px;
+  }
+
+  .blog-section .btn {
+	  margin-left: 0;
+	  background-color: lightgray;
+	  color: #000;
+  }
+
+  .blog {
+	  box-shadow: 3px 3px 22px rgba(0, 0, 0, .5);
+	  height: 399px;
+	  width: 49%;
+  }
+
+/* Work */
+
+#work {
+	padding: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.work-section h2 {
+	margin-top: 0;
+}
+.gallery {
+	margin-top: 30px;
+}
+
+.work {
+	width: 23.5%;
+}
+
+.work-img img {
+	width: 100%;
+}
+
+/* Contact */
+
+#contact {
+	text-align: center;
+	background: linear-gradient(to right, rgb(24,121,226), rgb(120,230,103));
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+.contact-section h2 {
+	color: #fff;
+}
+ .contact-details {
+	 margin-top: 30px;
+	text-align: left;
+} 
+input {
+	width: 290px;
+	height: 40px;
+	text-transform: capitalize;
+	padding: 5px;
+	border-radius: 6px;
+	margin-right: 20px;
+	border: none;
+}
+
+textarea {
+	padding: 5px;
+	text-transform: capitalize;
+	width: 97%;
+	border-radius: 6px;
+}
+.sub-flex1 {
+	width: 60%;
+}
+.sub-flex2 {
+	width: 35%;
+}
+
+.input {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.contact-details .btn {
+	margin-left: 0;
+}
+
+.contact-map iframe{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+} 
+
+/* Footer */
+
+.footer {
+	padding: 50px 0;
+	background: linear-gradient(to right, rgb(65,65,65), rgb(3,3,3));
+	color: #fff;
+	font-size: 14px;
+}
+
+.col1 {
+	width: 35%;
+}
+
+.col {
+	align-self: flex-start;
+}
+
+.col h4 {
+	font-size: 22px;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+} 
+.nav-menu a {
+	font-size: 14px;
+}
+
+.column {
+	margin-bottom: 50px;
+}
+
+hr {
+	border: 1px solid rgb(77, 75, 75);
+}
+
+.footer-section {
+	margin-top: 20px;
+}
+
+.social-icon {
+	position: relative;
+	right: 250px;
+	width: 8%;
+}
+
+.social-icon a {
+	font-size: 14px;
+	color: #fff;
+}
